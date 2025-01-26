@@ -1,5 +1,9 @@
 from openai import OpenAI
 
+a = 3
+b=2
+
+
 client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
   api_key="<OPENROUTER_API_KEY>",
